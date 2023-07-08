@@ -3,8 +3,9 @@ struct myStruct {
     int age;
     char name[50];
 };
+void display();
 int main(){
-    struct myStruct *detailsPtr,details;
+   struct myStruct *detailsPtr,details;
     detailsPtr=&details;
     
     printf( "Enter your Age : " );
@@ -13,7 +14,10 @@ int main(){
     printf( "Enter your Name :" );
     scanf( "%s",detailsPtr->name );
 
+    display(detailsPtr);  
+}
+
+void display(struct myStruct *detailsPtr){
     printf( "Name = %s\nAge = %d\n",detailsPtr->name, detailsPtr->age );
     printf( "exited...\n" );
-    return 0;
 }
