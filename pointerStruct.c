@@ -15,6 +15,7 @@ int main(){
     scanf( "%s",detailsPtr->name );
 
     display(detailsPtr);  
+    return 0;
 }
 
 void display(struct myStruct *detailsPtr){
