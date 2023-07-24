@@ -14,6 +14,9 @@ void insertInFront();
 void insertAfter(Node *,int,int);
 void printlist();
 void insertEnd(Node *,int);
+void deletionInFront(Node *);
+void deletionAfter(Node  *,int);
+void deletionInEnd(Node *);
 
 
 Node *nodeCreation(int item){
@@ -77,6 +80,43 @@ void insertEnd(Node *temp,int value){
 	}
 }
 
+void deletionInFront(Node *temp){
+	if(head == NULL){
+		printf( "Head is Empty...\n" );
+	}else {
+		head = head->next;
+		head->prev=NULL;
+	}
+}
+
+void deletionAfter(Node *temp,int position){
+	if(head == NULL){
+		printf( "Head is Empty...\n");
+	}else{
+		for(int i=0;i<position-1;i++){
+			temp=temp->next;
+			}
+		if(temp->prev == NULL){
+			printf( "Its is the first node...\n" );
+			deletionInFront(head);
+		}else if(temp->next == NULL){
+			printf( "It is the last Element...\n" );
+			deletionInEnd(head);
+		 }else{
+				temp->next=temp->next->next;
+				temp->next->prev=temp;
+	      }
+	}
+}
+
+void deletionInEnd(Node *temp){
+	while(temp->next->next != NULL){
+		temp = temp->next;
+	}
+	temp->next=NULL;
+}
+
+
 int main(){
 	
 	printf( "\n----------------------- DoubleLinkedList :) --------------------------\n" );
@@ -93,9 +133,16 @@ int main(){
 	
 	insertEnd(head,50);	        printList(head);
 	
+	
 	insertEnd(head,70);     	printList(head);
 	
 	insertAfter(head,60,6);	    printList(head); 
 	
+	//deletionAfter(head,2);      printList(head);
+	
+	deletionInFront(head);      printList(head);
+
+	//deletionInEnd(head);        printList(head); 
+		
 	return 0;
 } 
