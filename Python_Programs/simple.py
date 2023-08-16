@@ -55,3 +55,10 @@
 #         return num3
 
 # print(great_num(10,5,23))
+
+
+# i = 1
+# while i < 15:
+#     print( i )
+#     i += 1
+# print( "Done with looping ..." )
