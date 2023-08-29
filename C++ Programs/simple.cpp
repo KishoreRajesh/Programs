@@ -1,16 +1,15 @@
 #include <iostream>
 using namespace std;
+void hello(string);
 
-int main (){
-    int age;
-    string name;
-
-    cout << "Enter your Name ";
+int main(){
+    string name ;
+    cout << "Enter a Name : ";
     getline(cin, name);
-    cout << "Enter your Age ";
-    cin >> age;
-
-    cout << "My Name is "<< name << " And I am " << age << " years Old.";
-
+    hello(name);
     return 0;
+}
+
+void hello (string name){
+    cout << "Hello " << name << "!!!!!!"<< endl;
 }
