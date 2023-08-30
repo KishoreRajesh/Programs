@@ -11,7 +11,7 @@ int main(){
     for(int i =0; i<powNum; i++){
         answer = answer * baseNum;
     }
-    cout << answer << endl;
+    cout << "Answer is :" << answer << endl;
 
     return 0;
 }
