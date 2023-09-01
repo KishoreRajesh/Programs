@@ -2,7 +2,7 @@
 
 int main(){
 	int userIn;
-	char arr[userIn];
+	// char arr[userIn];
 	
 	printf( "Enter no of rows :" );
 	scanf( "%d",&userIn );

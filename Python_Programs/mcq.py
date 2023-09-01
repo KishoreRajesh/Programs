@@ -1,4 +1,9 @@
-from class_object import questions
+
+class questions:
+    def __init__(self, questions, answer):
+        self.questions = questions
+        self.answer = answer
+
 
 Questions_prompt = [
     "What is My Name ?\n a)king\n b)kishore\n c)Raja\n\n",
