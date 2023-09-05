@@ -99,7 +99,7 @@ int main(){
     arr.push(10);
     arr.push(11);
     arr.printArr();
-    arr.insertAt(2,113);
+    arr.insertAt(2,12);
     arr.printArr();
     arr.shrink();
     arr.printArr();
