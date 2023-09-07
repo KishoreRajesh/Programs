@@ -58,6 +58,7 @@
   "C_Cpp.errorSquiggles": "disabled",
   "files.associations": {
     "istream": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "list": "cpp"
   }
 }
