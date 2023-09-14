@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     string mystring;
-    cout << "-------Converting lowercasing words into uppercase ------\n";
+    cout << "-------Converting lowercased words into uppercase ------\n";
     cout << "Enter a lowercase sentence :";
     getline(cin,mystring);
     for(int i =0; i < mystring.length();i++){
