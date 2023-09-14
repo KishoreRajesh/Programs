@@ -2,8 +2,9 @@ print( "---------------------------------" )
 print( "-------BINARY CALCULATOR---------" )
 
 num1 = float(input("Enter First Number :"))
-num2 = float(input("Enter Second Number :"))
 op = input("Enter a Operator :")
+num2 = float(input("Enter Second Number :"))
+
 print( "---------------------------------" )
 if op == "+":
     print( num1 + num2 )
