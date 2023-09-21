@@ -9,7 +9,7 @@ int main(){
     cin >> paise;
     int rupee;
     int spares;
-    
+
     rupee = paise/paise_per_rupee;
     spares = paise % paise_per_rupee;
 
@@ -47,5 +47,6 @@ int main(){
     cout << "Dime    : " << dime << endl;
     cout << "Nickel  : " << nickel << endl;
     cout << "cents   : " << cent << endl;
+    
     return 0;
 }
