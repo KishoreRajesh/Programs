@@ -9,8 +9,10 @@ int main(){
     cin >> paise;
     int rupee;
     int spares;
+    
     rupee = paise/paise_per_rupee;
     spares = paise % paise_per_rupee;
+
     cout << "You can get change as follows ;" << endl;
     cout << "Rupees : " << rupee << endl;
     cout << "Paise  : " << spares << endl;
@@ -25,14 +27,19 @@ int main(){
     int cents =0;
     cin >> cents;
     int dollar=0,quarter=0,dime=0,nickel=0,cent=0,spare=0;
+
     dollar = cents/cent_per_dollar;
     spare = cents%cent_per_dollar;
+
     quarter = spare/cent_per_quarter;
     spare %= cent_per_quarter;
+
     dime = spare/cent_per_dime;
     spare %= cent_per_dime;
+
     nickel = spare / cent_per_nickel;
     spare %= cent_per_nickel;
+
     cent = spare;
     cout << "You can a change as follows ;" << endl;
     cout << "Dollar  : " << dollar << endl;
