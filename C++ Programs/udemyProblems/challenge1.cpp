@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int fNum;
+    int fNum (0);
     cout << "Enter a number from 1 to 100 :";
     cin >> fNum;
     cout << "Amazing ! It is my favorite number too.."<< endl;
