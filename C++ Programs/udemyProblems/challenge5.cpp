@@ -15,13 +15,13 @@ int main(){
         cout << "S - Display smallest of Numbers." << endl;
         cout << "L - Display Largest of Numbers." << endl;
         cout << "Q - Quit." << endl;
-        cout << "Enter Your chice : ";
+        cout << "Enter Your choice : ";
         cin >> selection;
         if(selection == 'p' || selection == 'P'){
             if(vec.empty()){
                 cout << "[] - List is empty." << endl;
             }else{
-                cout << "[";
+                cout << "[ ";
                 for(int i = 0; i < vec.size(); i ++){
                     cout << vec.at(i) << " ";
                 }
