@@ -27,15 +27,19 @@ int main(){
         string decrypted;
         for(char c : encrypted){
             size_t index = cipher.find(c);
-            if(index != string ::npos){
+            if(index != string :: npos){
                 char newChar = alphabets.at(index);
                 decrypted += newChar;
-            }else{
+            }else{ 
                 decrypted += c;
             }
         }
         cout << "Decrypted Message : " << decrypted << endl;
+    }else if(choice == 'n'|| choice == 'N'){
+    }else{
+            cout << "Invalid Operator..." << endl;
     }
+
 
     return 0;
 }
