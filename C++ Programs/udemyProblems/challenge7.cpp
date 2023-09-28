@@ -2,11 +2,11 @@
 #include<vector>
 using namespace std;
 void display();
-void printList(vector<int>);
+void printList(const vector<int>);
 void addElements(vector<int>&);
-void meanList(vector<int>&);
-void smallest(vector<int>&);
-void largest(vector<int>&);
+void meanList( vector<int>&);
+void smallest(const vector<int>&);
+void largest(const vector<int>&);
 double meanCalc(vector<int>&);
 
 int main(){
@@ -61,7 +61,7 @@ void display(){
         cout << "Enter your selection : ";
 }
 
-void printList(vector<int> p){
+void printList(const vector<int> p){
     cout << "[ ";
     for(auto i : p){
         cout << i << " " ;
@@ -77,7 +77,7 @@ void addElements(vector<int> &a){
     cout << newNum << " added." << endl;
 }
 
-void meanList(vector<int> &m){
+void meanList( vector<int> &m){
     if(m.size() == 0){
         cout << "Unable to calculate the mean " << endl;
     }else{
@@ -85,7 +85,7 @@ void meanList(vector<int> &m){
     }
 }
 
-void smallest(vector<int> &s){
+void smallest(const vector<int> &s){
     int small = s.at(0);
     for(int i =0; i< s.size(); i++){
         if(s.at(i) < small){
@@ -95,7 +95,7 @@ void smallest(vector<int> &s){
     cout << "The smallest value of the list is : " << small << endl;
 }
 
-void largest(vector<int> &l){
+void largest(const vector<int> &l){
     int large = 0;
     for(auto i = 0;  i < l.size(); i++){
         if(l.at(i) > large){
