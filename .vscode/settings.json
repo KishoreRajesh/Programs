@@ -61,6 +61,7 @@
     "vector": "cpp",
     "list": "cpp",
     "iostream": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "new": "cpp"
   }
 }
