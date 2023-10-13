@@ -3,7 +3,6 @@
 
 int isArmstrong(int);
 int armstrongNum(int, int);
-//int count =0;
 
 int main(){
 	int num1, num2; 
@@ -15,17 +14,10 @@ int main(){
 	printf( "---------------------------------------\n" );
 	printf( "The available Armstrong numbers b/w the mentioned limit are, \n" );
 	for (int i=num1; i<=num2;i++){
-	    //printf( "%d %d \n",isArmstrong(i), i );
 		if(isArmstrong(i) == 1){
 			printf( " %d  ", i );
 		}
-		//printf( "exited if...\n" );
 	}
-//	if(isArmstrong(number) == 1){
-//		printf( "\tIt is a armstrong...\n" );	
-//	}else{
-//		printf( "\tIt is not a armstrong...\n" );
-	//} 
 	printf( "\n---------------------------------------\n" );
 	return 0;
 } 
@@ -41,13 +33,10 @@ int isArmstrong(int num){
 	}
 	//printf("COUNT - %d\n", count);
 	while(temp != 0){
-		remain = temp % 10;//it breaks each digit from the number as remainder 
-		armstrong = armstrong + pow(remain,count);//it stores the number in reverse order 
-		temp /= 10;//it further breaks the number and gives the quotient to the next cycle
+		remain = temp % 10; 
+		armstrong = armstrong + pow(remain,count);
+		temp /= 10;
 	}
-	//printf("Arms - %d  \n", armstrong );
-	//when the temp variable reaches 0 it breaks the loop and the condition is checked;
-	//printf( "%d",armstrong );
 	if( armstrong == num ){
 		return 1;
 	}else{
