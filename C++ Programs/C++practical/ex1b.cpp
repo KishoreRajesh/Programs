@@ -1,3 +1,10 @@
+/*
+************************************************************************************
+WRITTEN BY KISHORE R
+DATE OF WRITTEN 15/10/2023
+WRITTEN IN VSCODE
+**************************************************************************************
+*/
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -15,13 +22,13 @@ int main() {
     cout << "Enter the Upper Limit :";
     cin >> uLimit;
     cout << "-------------------------------------------------------------------------------"<< endl;
-    cout << "The Amstrong numbers between " << lLimit << " and " << uLimit << " are,"<<endl;
+    cout << "The Amstrong numbers between " << lLimit << " and " << uLimit << " are,\n"<<endl;
     for (int i = lLimit; i <= uLimit; i++) {
         if (isAmstrong(i)) {
             cout << i << " ";
         }
     }
-    cout << endl;
+    cout << "\n"<< endl;
     cout << "-------------------------------------------------------------------------------" << endl;
     return 0;
 }
