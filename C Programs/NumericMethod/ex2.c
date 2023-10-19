@@ -41,6 +41,6 @@ void main(){
         i++;
 
     }
-    printf("\nThe Approximate Root is %.4f",c);
+    printf("\nThe Approximate Root is %.4f\n",c);
 }
 
