@@ -20,7 +20,7 @@ Questions= [
 def test(questions):
     score = 0
     for question in Questions:
-        answer = input(Questions_prompt)
+        answer = input(question)
         if answer == questions.answer:
             score += 1
     print("You scored " + str(score) + "/" +str(len(Questions)))
