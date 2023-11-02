@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+
 int main(){
     float a[10][ 10], x[10], ratio;
     int i,j,k,n;
