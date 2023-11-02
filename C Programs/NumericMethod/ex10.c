@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<math.h>
 #define X 8
@@ -7,7 +6,7 @@ float fun(int a)
 {
     return(4*a-(a*a)/2.0);
 }
-main()
+int main()
 {
     float u[X+1][T+1], h=1.0, k=0.0125,c,al,us,ue;
     int j,i;
@@ -32,4 +31,5 @@ main()
             printf("%7.4f\t",u[j][i]);
             printf("\n");
         }
+    return 0;
 }
