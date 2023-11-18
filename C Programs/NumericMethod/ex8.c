@@ -1,3 +1,7 @@
+/*Numeric Methods Pracical
+Written by KISHORE R*/
+//EX8
+
 #include<stdio.h>
 #include<math.h>
 

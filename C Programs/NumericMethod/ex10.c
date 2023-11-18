@@ -1,3 +1,8 @@
+/*Numeric Methods Pracical
+Written by KISHORE R*/
+//EX10
+
+
 #include<stdio.h>
 #include<math.h>
 #define X 8
