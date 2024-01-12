@@ -7,8 +7,8 @@ Written by KISHORE R*/
 #include <math.h>
 #include<stdlib.h>
 
-#define f(x) ((x*x*x) - (4*x)- 1)
-// #define f(x) ((x*x*x) - (x) -1)
+//#define f(x) ((x*x*x) - (4*x)- 1)
+#define f(x) ((x*x*x) - (x) -1)
 // #define f(x) ((x) - (cos(x)))
 // #define f(x) ((x*sin(x))-1)
 // #define f(x) ((exp(x)) - (3*x))
