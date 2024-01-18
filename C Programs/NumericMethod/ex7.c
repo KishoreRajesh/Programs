@@ -1,6 +1,6 @@
 /*Numeric Methods Pracical
 Written by KISHORE R*/
-//EX7
+//EX7 TRAPIZOIDAL RULE
 
 #include<stdio.h>
 #include<math.h>
@@ -8,6 +8,7 @@ Written by KISHORE R*/
 #define f(x) 1/(1+pow(x,2))
 
 int main(){
+    
     float lower, upper, integration=0.0, stepSize, k;
     int i, subInterval;
 

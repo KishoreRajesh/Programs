@@ -48,4 +48,3 @@ void main(){
     }
     printf("\nThe Approximate Root is %.4f\n",c);
 }
-

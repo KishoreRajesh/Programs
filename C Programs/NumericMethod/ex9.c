@@ -7,8 +7,7 @@ Written by KISHORE R*/
 
 #define f(x) 1/(1+x*x)
 
-int main()
-{
+int main(){
     float lower, upper, integration=0.0, stepSize, k;
     int i, subInterval;
     printf("Enter lower limit of integration: ");

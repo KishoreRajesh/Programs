@@ -25,16 +25,16 @@ int main()
     for(i=0;i<=T;i++)
         u[0][i]=u[X][i]=us;
     for(j=1;j<=X-1;j++)
-        u[j][0]=fun(j);
+        u[j][0]=fun(j);   
     for(i=0;i<=T-1;i++)
         for(j=1;j<=X-1;j++)
-            u[j][i+1]=al*u[j-1][i]+(1-2*al)*u[j][i]+al*u[j+1][i];
-    printf(" The value of alpha is %4.2f\n",al);
+            u[j][i+1]=al*u[j-1][i]+(1-2*al)*u[j][i]+al*u[j+1][i]; 
+    printf(" The value of alpha is %0.2f\n",al);
     printf(" The value of u[j,i] are:\n ");
     for(i=0;i<T;i++){
         for(j=0;j<X;j++)
             printf("%7.4f\t",u[j][i]);
-            printf("\n");
+        printf("\n");
         }
     return 0;
 }

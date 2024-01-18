@@ -42,17 +42,15 @@ int main()
     }
     x[n] = a[n][n+1]/a[n][n];
     
-    for(i=n-1;i>=1;i--)
-    {
+    for(i=n-1;i>=1;i--){
         x[i] = a[i][n+1];
-        for(j=i+1;j<=n;j++)
-        {
+        for(j=i+1;j<=n;j++){
             x[i] = x[i] - a[i][j]*x[j];
         }
         x[i] = x[i]/a[i][i];
     }
     printf("\nAnswer:\n");
-     
+    
     printf("x = %0.3f\n", x[1]);
     printf("y = %0.3f\n", x[2]);
     printf("z = %0.3f\n", x[3]);

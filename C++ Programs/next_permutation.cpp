@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    string s = "kishore";
+    string s = "Chandramouly";
     sort(s.begin(),s.end());
     do{
         cout << s <<endl;
