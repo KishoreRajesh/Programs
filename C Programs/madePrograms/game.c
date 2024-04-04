@@ -53,6 +53,7 @@ int main()
 	// seed for random generator
 	srand(time(0));
 
+    
     userPrints();
 	printRandoms(lower, upper, count);
 	check();
