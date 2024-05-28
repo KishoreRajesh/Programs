@@ -1,15 +1,16 @@
 #include<stdio.h>
-#define N 3
-struct knapsack{
+#define N 7
+typedef struct knapsack{
     float weight;
     float profit;
     float ratio;
-};
-struct knapsack k[N];
+}knapsack;
+knapsack k[N];
 void sort()
 {
     for(int i=0;i<N;i++)
     {
+        
         for(int j=0;j<N-i-1;j++)
         {
             if(k[j].ratio<k[j+1].ratio)
