@@ -10,7 +10,7 @@ void sort()
 {
     for(int i=0;i<N;i++)
     {
-        
+
         for(int j=0;j<N-i-1;j++)
         {
             if(k[j].ratio<k[j+1].ratio)
@@ -25,7 +25,7 @@ void sort()
 
 int main()
 {
-    float cap = 20;
+    float cap = 15;
     float p=0;
     float current_cap=0;
     for(int i=0;i<N;i++)
