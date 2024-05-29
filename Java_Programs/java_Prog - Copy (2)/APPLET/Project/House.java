@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.applet.*;
-import javafx.application.application;
+//import javafx.application.application;
 
 public class House extends Applet{
 
