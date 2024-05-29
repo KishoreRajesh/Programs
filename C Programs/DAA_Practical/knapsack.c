@@ -6,7 +6,7 @@ typedef struct knapsack{
     float ratio;
 }knapsack;
 knapsack k[N];
-void sort()
+void sort() 
 {
     for(int i=0;i<N;i++)
     {
@@ -38,10 +38,8 @@ int main()
     }
     sort();
     int h=0;
-    while(current_cap<cap)
-    {
-        if((current_cap+k[h].weight)<=cap)
-        {
+    while(current_cap<cap){
+        if((current_cap+k[h].weight)<=cap){
             current_cap+=k[h].weight;
             p+=k[h].profit;
             h++;

@@ -22,7 +22,6 @@ void nqueen(int n){
         }
         if(x[k]<=n){
             if(k==n){
-                
                 for(i=1;i<=n;i++){
                     printf("%d",x[i]);
                 }
