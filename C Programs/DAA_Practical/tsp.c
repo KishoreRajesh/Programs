@@ -37,9 +37,9 @@ int main() {
     };
 
     int visited[V];
-    for (int i = 0; i < V; i++)
+    for (int i = 0; i < V; i++){
         visited[i] = 0;
-
+    }
     int path[V];
     path[0] = 0;
     visited[0] = 1;
