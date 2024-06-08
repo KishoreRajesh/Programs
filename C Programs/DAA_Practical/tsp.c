@@ -44,7 +44,7 @@ int main() {
     path[0] = 0;
     visited[0] = 1;
     int min_cost = INT_MAX;
-
+-
     printf("Path with minimum cost: \n");
     tsp(graph, path, 0, visited, V, 1, 0, &min_cost);
 

@@ -10,12 +10,11 @@ void sort()
 {
     for(int i=0;i<N;i++)
     {
-
         for(int j=0;j<N-i-1;j++)
         {
             if(k[j].ratio<k[j+1].ratio)
             {
-                struct knapsack temp = k[j];
+                knapsack temp = k[j];
                 k[j]=k[j+1];
                 k[j+1]=temp;
             }
