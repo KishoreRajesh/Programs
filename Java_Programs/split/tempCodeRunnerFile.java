@@ -4,4 +4,4 @@ class Main {
       String operatingSystem = System.getProperty("os.name");
       System.out.println(operatingSystem);
     }
-  }
+  } 
