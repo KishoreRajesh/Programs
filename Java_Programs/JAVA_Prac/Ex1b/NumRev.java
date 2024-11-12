@@ -1,5 +1,6 @@
-import java.io.*;
-import java.util.Scanner; class NumRev
+
+import java.util.Scanner; 
+class NumRev
 {
 public static void main(String args[])
 {
@@ -13,6 +14,7 @@ rev=rev+n%10;
 n=n/10;
 }
 System.out.println("Reversed number is : "+rev);
+inp.close();
 }
 }
  

@@ -1,4 +1,4 @@
-import java.io.*;
+
 
 interface In1 {
     final int a = 10;

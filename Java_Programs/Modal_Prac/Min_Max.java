@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 class Min_Max {
@@ -21,5 +21,6 @@ class Min_Max {
             }
         }
         System.out.println("Max = "+max+"\n"+"Min= "+min);
+        sc.close();
     }
 }

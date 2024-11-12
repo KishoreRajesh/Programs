@@ -1,4 +1,4 @@
-import java.io.*; 
+
 import java.util.*;
  
 class Inputs{
@@ -16,6 +16,7 @@ class Inputs{
         System.out.println("\nString c = "+c); 
         System.out.println("\nDouble d = "+d); 
         System.out.println("\nLine e = "+e);
+        inp.close();
     }
  
 }

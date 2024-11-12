@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 class Avg {
@@ -17,6 +17,7 @@ class Avg {
         }
         avg = total/n;
         System.out.println("Average = "+ avg);
+        in.close();
     }
 }
 
