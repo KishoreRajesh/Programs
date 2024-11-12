@@ -10,7 +10,7 @@ public class Solution {
         scan.close();
         s = s.trim();
         
-        if (s.length() == 0) {œ
+        if (s.length() == 0) {
             System.out.println(0);
         } else {
             // Splitting the string into tokens and printing the number of tokens
