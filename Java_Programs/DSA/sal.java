@@ -11,5 +11,6 @@ public class sal{
             sal += 1000;
         }
         System.out.println(sal);
+        in.close();
     }
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "DSA.prime",
+            "projectName": "Programs_b8804261"
+        },
+        {
+            "type": "java",
+            "name": "name",
+            "request": "launch",
+            "mainClass": "DSA.name",
+            "projectName": "Programs_b8804261"
+        },
+        {
+            "type": "java",
             "name": "sal",
             "request": "launch",
             "mainClass": "DSA.sal",
