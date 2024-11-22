@@ -26,18 +26,24 @@ else:
     print("No <h2> tags found.")
 # Check for links
 print("\nChecking for links...")
+
+
 links = soup.find_all('a', href=True)
 print(f"Found {len(links)} links:")
 for link in links[:5]:  # Display only the first 5 links 
     print(f" - {link.get('href')}")
 print("\nChecking for forms...")
 forms = soup.find_all('form')
+
+
 print(f"Found {len(forms)} forms.")
 for form in forms:
     action = form.get('action', 'No action specified')
     method = form.get('method', 'No method specified')
     print(f" - Form action: {action}, method: {method}")
 print("\nChecking for buttons...")
+
+
 buttons = soup.find_all('button')
 submit_inputs = soup.find_all('input', {'type': 'submit'})
 print(f"Found {len(buttons)} <button> tags and {len(submit_inputs)} submit inputs.")
