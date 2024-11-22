@@ -1,4 +1,4 @@
-
+package Modal_Prac;
 import java.util.*;
 
 class Avg {
