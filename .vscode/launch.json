@@ -8,6 +8,13 @@
             "type": "java",
             "name": "linear_search",
             "request": "launch",
+            "mainClass": "Data_structures.linear_search",
+            "projectName": "Programs_b8804261"
+        },
+        {
+            "type": "java",
+            "name": "linear_search",
+            "request": "launch",
             "mainClass": "DSA.linear_search",
             "projectName": "Programs_b8804261"
         },
