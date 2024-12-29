@@ -1,51 +1,11 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "linear_search",
+            "name": "Launch Linear Search",
             "request": "launch",
-            "mainClass": "Data_structures.linear_search",
-            "projectName": "Programs_b8804261"
-        },
-        {
-            "type": "java",
-            "name": "linear_search",
-            "request": "launch",
-            "mainClass": "DSA.linear_search",
-            "projectName": "Programs_b8804261"
-        },
-        {
-            "type": "java",
-            "name": "prime",
-            "request": "launch",
-            "mainClass": "DSA.prime",
-            "projectName": "Programs_b8804261"
-        },
-        {
-            "type": "java",
-            "name": "name",
-            "request": "launch",
-            "mainClass": "DSA.name",
-            "projectName": "Programs_b8804261"
-        },
-        {
-            "type": "java",
-            "name": "sal",
-            "request": "launch",
-            "mainClass": "DSA.sal",
-            "projectName": "Programs_b8804261"
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug",
-            "program": "${workspaceFolder}/<executable file>",
-            "args": [],
-            "cwd": "${workspaceFolder}"
+            "mainClass": "Data_structures.linear_search"
         }
     ]
 }
