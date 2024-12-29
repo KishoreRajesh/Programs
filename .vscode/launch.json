@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "linear_search",
+            "request": "launch",
+            "mainClass": "DSA.linear_search",
+            "projectName": "Programs_b8804261"
+        },
+        {
+            "type": "java",
             "name": "prime",
             "request": "launch",
             "mainClass": "DSA.prime",
